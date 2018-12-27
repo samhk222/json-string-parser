@@ -1,0 +1,20 @@
+{
+    "name": "samhk222/json-string-parser",
+    "description": "Parseia as informações de uma string, retornando em forma de array, os jsons que foram encontrados nela",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Samuel Aiala Ferreira",
+            "email": "samuca@samuca.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "samhk222\\": "src/"
+        }
+    }    
+}
